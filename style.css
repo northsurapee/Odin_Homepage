@@ -1,0 +1,150 @@
+/* WHOLE BODY */
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-family: 'Roboto';
+
+    margin: 0px;
+}
+
+h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* HEADER */
+.header {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me {
+    padding: 20px 30px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.header .link {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+.header img {
+    max-width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* MAIN */
+.main {
+    padding: 50px 100px;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.project {
+    max-width: 300px;
+    min-height: 400px;
+
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.project-screenshot {
+    min-height: 200px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: lightcoral;
+    color: white;
+    font-size: 1.5em;
+}
+
+.project-header {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.project-header .link {
+    align-self: center;
+    display: flex;
+    gap: 10px;
+}
+
+.project p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* FOOTER */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    padding: 30px;
+    background-color: #0891B2;
+}
+
+.contact {
+    max-width: 300px;
+
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+
+    color: white;
+
+}
+
+.phone, .email {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.footer .link {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+
+    margin-top: 10px;
+    color: black;
+    font-size: 1.5em;
+}
+
+.footer img {
+    max-width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
