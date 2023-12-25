@@ -155,7 +155,7 @@ div.triangle {
     }
 }
 
-/* PHONE > 768px - 501px :  Bring profile on top of aboutme */
+/* BIG PHONE > 768px - 501px :  Bring profile on top of aboutme */
 @media (max-width: 768px) {
     header {
         display: flex;
@@ -168,7 +168,7 @@ div.triangle {
     }
 }
 
-/* SMALL PHONE: 500px - 320px : Set some padding & margin */
+/* PHONE: 500px : Set some padding & margin */
 @media (max-width: 500px) {
     div.triangle {
         display: none;
@@ -190,8 +190,8 @@ div.triangle {
         width: 300px ;
     }
 
-    main {
-        padding: 30px ;
+    .main-wrapper {
+        padding: 5px ;
     }
 }
 
@@ -221,6 +221,7 @@ main div.project-container {
 section.project {
     box-shadow: 2px 7px 15px rgba(0, 0, 0, .3);
     min-height: 550px;
+    min-width: 310px;
 }
 
 section.project div.content {
