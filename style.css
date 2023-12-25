@@ -174,12 +174,8 @@ div.triangle {
         display: none;
     }
 
-    div.rectangle {
-        width: 200%;
-    }
-
     section.about-me {
-        margin: 30px;
+        margin: 20px;
     }
 
     div.main-photo-container {
