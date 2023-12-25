@@ -102,7 +102,6 @@ section.about-me {
     max-width: 1900px;
     background-color: white;
     box-shadow: 5px 10px 10px rgba(0, 0, 0, .5);
-    padding: 50px;
     padding: 30px;
     padding-left: 60px;
     padding-top: 60px;
@@ -148,8 +147,8 @@ div.triangle {
     filter: drop-shadow(-16px 6px 3px rgba(0, 0, 0, .5));
 }
 
-/* TABLET: 1024px - 769px : minimize profile*/
-@media (max-width: 1024px) {
+/* TABLET: 1280px - 769px : minimize profile*/
+@media (max-width: 1280px) {
     div.main-photo-container {
         max-width: 400px ;
         min-height: 400px ;
@@ -202,9 +201,8 @@ div.triangle {
     height: 32px;
 }
 
-main {
-    padding: 30px;
-    padding-left: 60px;
+.main-wrapper {
+    padding: 40px;
     display: flex;
     flex-direction: column;
 }
@@ -216,13 +214,13 @@ main h2 {
 main div.project-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 40px;
+    gap: 50px;
+    align-items: center;
 }
 
 section.project {
-    width: 400px;
-    height: 500px;
     box-shadow: 2px 7px 15px rgba(0, 0, 0, .3);
+    min-height: 550px;
 }
 
 section.project div.content {
